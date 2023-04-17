@@ -1,5 +1,5 @@
 {% set name = "griottes" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/griottes-{{ version }}.tar.gz
-  sha256: 16a8119888bd90a1b2d224d6c5860455e51fec4bfd948a252f73add83a3ca631
+  sha256: 60f8edabcd554626935ba197a1ad65312f8cf5fa7c0c2790a85b696eb97abcd3
 
 build:
   noarch: python
